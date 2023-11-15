@@ -1,0 +1,81 @@
+{
+"timestamp":"2023-11-15 16:07:41.100",
+"sequence number":"0",
+"class":"Meridiana",
+"method":"getOra",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY"
+}
+{
+"timestamp":"2023-11-15 16:07:41.154",
+"sequence number":"1",
+"class":"com.mypoject.Main",
+"method":"logEnteringAndExiting",
+"thread ID":"1",
+"level":"INFO",
+"message":"Ora: 	11:59"
+}
+{
+"timestamp":"2023-11-15 16:07:41.170",
+"sequence number":"2",
+"class":"Meridiana",
+"method":"getOra",
+"thread ID":"1",
+"level":"FINER",
+"message":"RETURN"
+}
+{
+"timestamp":"2023-11-15 16:07:41.171",
+"sequence number":"3",
+"class":"OrologioDaPolso",
+"method":"getOra",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY"
+}
+{
+"timestamp":"2023-11-15 16:07:41.174",
+"sequence number":"4",
+"class":"com.mypoject.Main",
+"method":"logEnteringAndExiting",
+"thread ID":"1",
+"level":"INFO",
+"message":"Ora: 	10:20"
+}
+{
+"timestamp":"2023-11-15 16:07:41.175",
+"sequence number":"5",
+"class":"OrologioDaPolso",
+"method":"getOra",
+"thread ID":"1",
+"level":"FINER",
+"message":"RETURN"
+}
+{
+"timestamp":"2023-11-15 16:07:41.175",
+"sequence number":"6",
+"class":"Sveglia",
+"method":"getOra",
+"thread ID":"1",
+"level":"FINER",
+"message":"ENTRY"
+}
+{
+"timestamp":"2023-11-15 16:07:41.176",
+"sequence number":"7",
+"class":"com.mypoject.Main",
+"method":"logEnteringAndExiting",
+"thread ID":"1",
+"level":"INFO",
+"message":"Ora: 	7:30"
+}
+{
+"timestamp":"2023-11-15 16:07:41.176",
+"sequence number":"8",
+"class":"Sveglia",
+"method":"getOra",
+"thread ID":"1",
+"level":"FINER",
+"message":"RETURN"
+}
