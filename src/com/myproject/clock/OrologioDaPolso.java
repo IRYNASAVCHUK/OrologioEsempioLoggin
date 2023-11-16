@@ -1,4 +1,4 @@
-package com.mypoject.clock;
+package com.myproject.clock;
 public class OrologioDaPolso implements IOrologio {
     private int ore, minuti;
 

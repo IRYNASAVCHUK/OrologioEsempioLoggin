@@ -1,34 +1,27 @@
-package com.mypoject;
+package com.myproject;
 
-import java.util.logging.FileHandler;
-import java.util.logging.Formatter;
-import java.util.logging.Handler;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
-import com.mypoject.clock.IOrologio;
-import com.mypoject.clock.Meridiana;
-import com.mypoject.clock.OrologioDaPolso;
-import com.mypoject.clock.Sveglia;
-import com.mypoject.logging.MyFormatter;
+import com.myproject.clock.IOrologio;
+import com.myproject.clock.Meridiana;
+import com.myproject.clock.OrologioDaPolso;
+import com.myproject.clock.Sveglia;
+import com.myproject.logging.MyFormatter;
+import com.myproject.logging.MyHandler;
+import com.myproject.logging.MyLogger;
 
 
 public class Main {
     public static void main(String[] args) {
         // Configura il logger
-        Logger logger = Logger.getLogger(Main.class.getName());
-        logger.setLevel(Level.ALL); // Imposta il livello di registrazione a ALL
+        Logger logger = MyLogger.getLogger();
 
         try {
             // Crea un handler per scrivere i log su file
-            Handler fileHandler = new FileHandler("logFile.txt");
-            fileHandler.setLevel(Level.ALL); // Imposta il livello di registrazione a ALL
-
+            MyHandler fileHandler = new MyHandler();
             // Imposta un formatter personalizzato per il formato JSON
-            Formatter formatter = new MyFormatter();
+            MyFormatter formatter = new MyFormatter();
             fileHandler.setFormatter(formatter);
-
             // Aggiungi l'handler al logger
             logger.addHandler(fileHandler);
 

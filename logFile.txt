@@ -1,5 +1,5 @@
 {
-"timestamp":"2023-11-15 16:07:41.100",
+"timestamp":"2023-11-16 08:10:29.828",
 "sequence number":"0",
 "class":"Meridiana",
 "method":"getOra",
@@ -8,16 +8,16 @@
 "message":"ENTRY"
 }
 {
-"timestamp":"2023-11-15 16:07:41.154",
+"timestamp":"2023-11-16 08:10:29.881",
 "sequence number":"1",
-"class":"com.mypoject.Main",
+"class":"com.myproject.Main",
 "method":"logEnteringAndExiting",
 "thread ID":"1",
 "level":"INFO",
 "message":"Ora: 	11:59"
 }
 {
-"timestamp":"2023-11-15 16:07:41.170",
+"timestamp":"2023-11-16 08:10:29.898",
 "sequence number":"2",
 "class":"Meridiana",
 "method":"getOra",
@@ -26,7 +26,7 @@
 "message":"RETURN"
 }
 {
-"timestamp":"2023-11-15 16:07:41.171",
+"timestamp":"2023-11-16 08:10:29.898",
 "sequence number":"3",
 "class":"OrologioDaPolso",
 "method":"getOra",
@@ -35,16 +35,16 @@
 "message":"ENTRY"
 }
 {
-"timestamp":"2023-11-15 16:07:41.174",
+"timestamp":"2023-11-16 08:10:29.902",
 "sequence number":"4",
-"class":"com.mypoject.Main",
+"class":"com.myproject.Main",
 "method":"logEnteringAndExiting",
 "thread ID":"1",
 "level":"INFO",
 "message":"Ora: 	10:20"
 }
 {
-"timestamp":"2023-11-15 16:07:41.175",
+"timestamp":"2023-11-16 08:10:29.902",
 "sequence number":"5",
 "class":"OrologioDaPolso",
 "method":"getOra",
@@ -53,7 +53,7 @@
 "message":"RETURN"
 }
 {
-"timestamp":"2023-11-15 16:07:41.175",
+"timestamp":"2023-11-16 08:10:29.903",
 "sequence number":"6",
 "class":"Sveglia",
 "method":"getOra",
@@ -62,16 +62,16 @@
 "message":"ENTRY"
 }
 {
-"timestamp":"2023-11-15 16:07:41.176",
+"timestamp":"2023-11-16 08:10:29.904",
 "sequence number":"7",
-"class":"com.mypoject.Main",
+"class":"com.myproject.Main",
 "method":"logEnteringAndExiting",
 "thread ID":"1",
 "level":"INFO",
 "message":"Ora: 	7:30"
 }
 {
-"timestamp":"2023-11-15 16:07:41.176",
+"timestamp":"2023-11-16 08:10:29.904",
 "sequence number":"8",
 "class":"Sveglia",
 "method":"getOra",
