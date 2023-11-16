@@ -6,6 +6,7 @@ import com.myproject.clock.IOrologio;
 import com.myproject.clock.Meridiana;
 import com.myproject.clock.OrologioDaPolso;
 import com.myproject.clock.Sveglia;
+import com.myproject.logging.LoggingUtils;
 import com.myproject.logging.MyFormatter;
 import com.myproject.logging.MyHandler;
 import com.myproject.logging.MyLogger;
@@ -31,23 +32,13 @@ public class Main {
 
         // Testa i metodi getOra() e registra i log
         IOrologio o1 = new Meridiana();
-        logEnteringAndExiting(logger, o1);
+        LoggingUtils.logEnteringAndExiting(logger, o1);
 
         IOrologio o2 = new OrologioDaPolso(10, 20);
-        logEnteringAndExiting(logger, o2);
+        LoggingUtils.logEnteringAndExiting(logger, o2);
 
         IOrologio o3 = new Sveglia(7, 30);
-        logEnteringAndExiting(logger, o3);
-    }
-
-    // Metodo per registrare gli ingressi e le uscite dal metodo getOra()
-    private static void logEnteringAndExiting(Logger logger, IOrologio orologio) {
-        String className = orologio.getClass().getSimpleName();
-        String methodName = "getOra";
-
-        logger.entering(className, methodName);
-        logger.info("Ora: " + orologio.getOra());
-        logger.exiting(className, methodName);
+        LoggingUtils.logEnteringAndExiting(logger, o3);
     }
    
 }
